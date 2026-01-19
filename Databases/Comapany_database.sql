@@ -24,6 +24,11 @@ DELETE FROM employees WHERE emp_id=5;
 
 UPDATE employees set salary=0.1*salary WHERE department='IT';
 
+#Changes the logic for the salary incrementation
+#Before it used to decrease the salary of all the IT employees by 10%
+
+UPDATE employees set salary=1.1*salary WHERE department='IT';
+
 DELETE FROM employees;
 
 DROP TABLE employees;
