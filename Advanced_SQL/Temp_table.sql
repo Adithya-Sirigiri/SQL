@@ -20,3 +20,4 @@ WHERE salary > 50000;
 
 SELECT *
 FROM temp_table_2;
+
